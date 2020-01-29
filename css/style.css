@@ -1,7 +1,5 @@
 
-.wrapper {
-  width: 100%;
-}
+
 
 .inner {
   width: 1100px;
@@ -12,12 +10,10 @@
 .header {
   background-color: #fff;
   padding: 15px 100px;
-  width: 100%;
 }
 
 .bolt {
   color: #4e4e4e;
-  text-align: left;
 }
 
 .header__contact {
@@ -26,7 +22,6 @@
   font-size: 12px;
   padding: 14px 12px;
   display: inline-block;
-
 }
 
 .title {
