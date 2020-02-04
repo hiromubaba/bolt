@@ -105,4 +105,9 @@
   margin-bottom: 90px;
 }
 
-
+.photo__content img:nth-child(3) {
+  margin-right: 0;
+}
+.photo__content img:nth-child(6) {
+  margin-right: 0;
+}
