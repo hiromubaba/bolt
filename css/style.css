@@ -112,19 +112,22 @@
 }
 
 .photo__text__mail {
-  margin: 90px 0 70px 0;
+  margin-top: 90px;
 }
 
 .photo__sub__text {
-  
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 70px;
+  width: 530px;
 }
 
 .photo__mail {
   background-color: #74cfae;
   color: #fff;
   font-size: 12px;
-  float: right;
-  margin-left: 100px;
+  margin-left: 90px;
+  margin-right: 100px;
   padding: 14px 20px;
 }
 ​
