@@ -1,4 +1,7 @@
 
+body {
+  font-family: 'Lato';
+}
 
 .clearfix::after {
   content: "";
@@ -17,6 +20,9 @@
 .header {
   background-color: #fff;
   width: 100%;
+}
+
+.header__content {
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -48,20 +54,20 @@
 .title {
   background-color: #f2f2f2;
   width: 100%;
+  padding: 250px 0;
 }
 
-.title .title__main__text {
+.title__main__text {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  padding-bottom: 20px;
-  padding-top: 250px;
+  font-family: 'Raleway';
+  margin-bottom: 20px;
 }
 
-.title .title__sub__text {
+.title__sub__text {
   color: #c0c0c0;
   font-size: 30px;
-  padding-bottom: 250px;
 }
 
 .content {
@@ -77,10 +83,15 @@
   padding-right: 150px;
 }
 
+.content__title {
+  width: 1000px;
+}
+
 .content__title__text {
   padding-bottom: 35px;
   padding-top: 50px;
   font-size: 24px;
+  font-family: 'Raleway';
 }
 
 .content__text {
@@ -90,14 +101,16 @@
 
 .content__photo__text {
   background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
   width: 100%;
 }
 
 .photo__text {
   color: #4e4e4e;
   font-size: 24px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  font-family: 'Raleway';
+  margin-bottom: 40px;
 }
 
 .photo__main {
@@ -137,8 +150,7 @@
 .photo__sub__text {
   float: left;
   margin-left: 100px;
-  margin-bottom: 70px;
-  width: 530px;
+  width: 500px;
 }
 
 .photo__mail {
@@ -161,8 +173,13 @@
   color: #fff;
 }
 
+.content__circle__text {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
 .circle__text {
-  padding: 70px 0;
+  margin-bottom: 70px;
 }
 
 .circle__content {
@@ -172,8 +189,7 @@
 
 .circle__content p {
   font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 100px;
+  margin-top: 10px;
 }
 
 .circle__content:last-child {
@@ -196,7 +212,7 @@
   background-color: #fff;
 }
 
-.fa-basketball-ball:hover {
+.fa-dribbble:hover {
   background-color: #fff;
 }
 
@@ -219,11 +235,11 @@
 .footer {
   background-color: #74cfae;
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .footer__text {
   color: #fff;
-  padding-top: 20px;
-  padding-bottom: 25px;
   text-align: end;
 }
