@@ -84,6 +84,7 @@
 
 .content__text {
   font-size: 20px;
+  word-break: break-all;
 }
 
 .content__photo__text {
