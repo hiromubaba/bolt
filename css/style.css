@@ -187,8 +187,9 @@
 }
 
 .icon__face {
+  color: #74cfae;
   transition: color .3s;
-
+  text-decoration: none;
 }
 
 .icon__face:hover {
