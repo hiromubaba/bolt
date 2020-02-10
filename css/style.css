@@ -186,13 +186,25 @@
   padding: 200px 0;
 }
 
-.icon__face {
+.icon__content {
   color: #74cfae;
   transition: color .3s;
   text-decoration: none;
 }
 
-.icon__face:hover {
+.fa-facebook-f:hover {
+  background-color: #fff;
+}
+
+.fa-basketball-ball:hover {
+  background-color: #fff;
+}
+
+.fa-twitter:hover {
+  background-color: #fff;
+}
+
+.fa-envelope:hover {
   background-color: #fff;
 }
 
