@@ -19,19 +19,14 @@ body {
 
 .header {
   background-color: #fff;
+  padding: 15px 0;
   width: 100%;
-}
-
-.header__content {
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .bolt {
   color: #4e4e4e;
   font-size: 30px;
   float: left;
-  padding-left: 100px;
 }
 
 .header__contact {
@@ -39,7 +34,6 @@ body {
   color: #fff;
   font-size: 12px;
   float: right;
-  margin-right: 100px;
   transition : color .3s;
   text-decoration: none;
   padding: 14px 12px;
@@ -77,26 +71,28 @@ body {
   width: 100%;
 }
 
+.content__inner {
+  display: flex;
+}
+
 .iphone {
   font-size: 250px;
-  float: left;
   padding-right: 150px;
 }
 
 .content__title {
-  width: 1000px;
+  width: 680px;
 }
 
 .content__title__text {
-  padding-bottom: 35px;
-  padding-top: 50px;
+  margin-bottom: 35px;
   font-size: 24px;
   font-family: 'Raleway';
 }
 
 .content__text {
   font-size: 20px;
-  word-break: break-all;
+  line-height: 30px;
 }
 
 .content__photo__text {
@@ -145,12 +141,12 @@ body {
 
 .photo__text__mail {
   margin-top: 90px;
+  display: flex;
 }
 
 .photo__sub__text {
-  float: left;
   margin-left: 100px;
-  width: 500px;
+  width: 600px;
 }
 
 .photo__mail {
@@ -158,7 +154,6 @@ body {
   color: #fff;
   font-size: 12px;
   margin-left: 90px;
-  margin-right: 100px;
   transition: color .3s;
   text-decoration: none;
   padding: 14px 20px;
