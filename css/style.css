@@ -10,6 +10,11 @@ body {
 }
 
 /**-----header-----**/
+header {
+  position: fixed;
+  z-index: 1;
+}
+
 
 .inner {
   width: 1100px;
@@ -115,7 +120,7 @@ body {
 }
 
 .photo__content {
-  margin: 0 0 0 100px;
+  margin: 80px 0 0 100px;
 }
 
 .content__img {
@@ -127,15 +132,11 @@ body {
   opacity: 1;
 }
 
-.photo__main li:nth-child(n+4) {
-  margin-top: 80px;
+.photo__content:nth-child(-n+3) {
+  margin-top: 0;
 }
 
-.photo__main li:nth-child(1) {
-  margin-left: 0;
-}
-
-.photo__main li:nth-child(4) {
+.photo__content:nth-child(3n-2) {
   margin-left: 0;
 }
 
