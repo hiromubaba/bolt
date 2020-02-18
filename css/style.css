@@ -3,6 +3,10 @@ body {
   font-family: 'Lato';
 }
 
+.is__Raleway {
+  font-family: 'Raleway';
+}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -65,7 +69,6 @@ main {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  font-family: 'Raleway';
   margin-bottom: 20px;
 }
 
@@ -97,7 +100,6 @@ main {
 .content__title__text {
   margin-bottom: 35px;
   font-size: 24px;
-  font-family: 'Raleway';
 }
 
 .content__text {
@@ -181,6 +183,7 @@ main {
 
 .circle__text {
   margin-bottom: 70px;
+  font-size: 24px;
 }
 
 .circle__content {
@@ -205,30 +208,15 @@ main {
 
 .icon__content {
   color: #74cfae;
-  transition: color .3s;
+  transition: all .3s;
   text-decoration: none;
-}
-
-.fa-facebook-f:hover {
-  background-color: #fff;
-}
-
-.fa-dribbble:hover {
-  background-color: #fff;
-}
-
-.fa-twitter:hover {
-  background-color: #fff;
-}
-
-.fa-envelope:hover {
-  background-color: #fff;
-}
-
-.icon__content {
   font-size: 50px;
   padding: 30px 0 ;
   width: 185px;
+}
+
+.icon__content:hover {
+  background-color: #fff;
 }
 
 /**-----footer-----**/
@@ -243,4 +231,16 @@ main {
 .footer__text {
   color: #fff;
   text-align: end;
+}
+
+/**-----<SP>-----**/
+
+@media screen and (max-width: 767px) { 
+  img {
+  display: block;
+  float: none;
+  width: 100%;
+}
+
+
 }
