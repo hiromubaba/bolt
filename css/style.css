@@ -14,6 +14,7 @@ body {
 }
 
 /**-----header-----**/
+
 header {
   position: fixed;
   top: 0;
@@ -235,11 +236,30 @@ main {
 
 /**-----<SP>-----**/
 
-@media screen and (max-width: 767px) { 
-  img {
-  display: block;
-  float: none;
-  width: 100%;
+@media screen and (max-width: 767px) {
+.header__contact {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.title {
+  position: relative;
+  width: 50%;
+  height: auto;
+}
+
+.title__inner {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title__main__text {
+  font-size: 80px;
+  padding-top: 160px;
 }
 
 
