@@ -266,9 +266,15 @@ img {
   margin: auto;
 }
 
+.content__img {
+  display: block;
+  margin: auto;
+}
+
 .photo__content:nth-child(3n) {
   margin-bottom: 80px;
 }
+
 
 .photo__text__mail {
   margin-top: 80px;
