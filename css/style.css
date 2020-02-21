@@ -205,6 +205,10 @@ main {
   padding: 200px 0;
 }
 
+.icon__list {
+  display: inline-block;
+}
+
 .icon__content {
   color: #74cfae;
   transition: all .3s;
@@ -275,7 +279,6 @@ img {
   margin-bottom: 80px;
 }
 
-
 .photo__text__mail {
   margin-top: 80px;
 }
@@ -309,6 +312,10 @@ img {
 
 .icon__inner {
   font-size: 0;
+}
+
+.icon__list {
+  display: block;
 }
 
 }
