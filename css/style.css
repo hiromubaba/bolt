@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 body {
   font-family: 'Lato';
@@ -234,17 +235,18 @@ main {
 /* タブレット以下 */
 
 @media screen and (max-width: 1199px) {
+
 .inner {
   width: 97%;
   display: block;
 }
 
-.content {
-  padding-bottom: 25px;
+img {
+  vertical-align: bottom;
 }
 
-.content__title__text {
-  margin-top: 20px;
+.content {
+  padding-bottom: 25px;
 }
 
 .iphone {
@@ -253,6 +255,7 @@ main {
 
 .content__title {
   width: auto;
+  margin-top: 20px;
 }
 
 .photo__main {
@@ -263,7 +266,7 @@ main {
   margin: auto;
 }
 
-.photo__content:nth-child(3) {
+.photo__content:nth-child(3n) {
   margin-bottom: 80px;
 }
 
@@ -272,7 +275,13 @@ main {
 }
 
 .photo__sub__text {
+  margin: auto;
   margin-bottom: 40px;
+  width: auto;
+}
+
+.photo__mail {
+  margin: auto;
 }
 
 .circle__main {
@@ -292,6 +301,10 @@ main {
   margin-bottom: 0;
 }
 
+.icon__inner {
+  font-size: 0;
+}
+
 }
 
 
@@ -308,7 +321,7 @@ main {
   display: none;
 }
 
-.baga {
+.hamburger {
   float: right;
   position: relative;
   padding: 10px;
