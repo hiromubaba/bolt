@@ -175,9 +175,6 @@ main {
 .content__circle__text {
   background-color: #4e4e4e;
   color: #fff;
-}
-
-.content__circle__text {
   padding-top: 70px;
   padding-bottom: 100px;
 }
@@ -234,8 +231,56 @@ main {
   text-align: end;
 }
 
-/**-----<SP>-----**/
+/* タブレット以下 */
 
+@media screen and (max-width: 1199px) {
+.inner {
+  width: 97%;
+  display: block;
+}
+
+.content {
+  padding-bottom: 25px;
+}
+
+.content__title__text {
+  margin-top: 20px;
+}
+
+.photo__main {
+  display: block;
+  margin: auto;
+}
+
+.photo__content {
+  margin: auto;
+}
+
+.photo__content:nth-child(3) {
+  margin-bottom: 80px;
+}
+
+.photo__text__mail {
+  margin-top: 80px;
+}
+
+.photo__sub__text {
+  margin-bottom: 40px;
+}
+
+.circle__main {
+  display: block;
+}
+
+.circle__main {
+  flex-direction: column
+}
+
+}
+
+
+/* スマホのみ */
+/* 
 @media screen and (max-width: 767px) {
 .header__contact {
   padding: 10px;
@@ -251,10 +296,10 @@ main {
 
 .title__inner {
   position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .title__main__text {
@@ -262,5 +307,7 @@ main {
   padding-top: 160px;
 }
 
-
+ul {
+  display: block;
 }
+} */
