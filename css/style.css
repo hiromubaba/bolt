@@ -247,6 +247,14 @@ main {
   margin-top: 20px;
 }
 
+.iphone {
+  padding: 0;
+}
+
+.content__title {
+  width: auto;
+}
+
 .photo__main {
   display: block;
   margin: auto;
@@ -275,13 +283,28 @@ main {
 .circle__main {
   flex-direction: column
 }
+.circle__content {
+  display: block;
+  margin: auto;
+  margin-bottom: 88px;
+}
+
+.circle__content:last-child {
+  margin-bottom: 0;
+}
 
 }
 
 
 /* スマホのみ */
-/* 
+
 @media screen and (max-width: 767px) {
+
+.inner {
+  width: 97%;
+  display: block;
+}
+
 .header__contact {
   padding: 10px;
   border: 1px solid #ddd;
@@ -289,25 +312,31 @@ main {
 }
 
 .title {
-  position: relative;
-  width: 50%;
-  height: auto;
-}
-
-.title__inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  padding-top: 160px;
+  padding-bottom: 130px;
 }
 
 .title__main__text {
   font-size: 80px;
-  padding-top: 160px;
 }
 
-ul {
+.title__main__text {
+  font-size: 30px;
+}
+
+.photo__sub__text {
+  margin: auto;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+.photo__mail {
+  margin: auto;
+}
+
+.icon {
+  padding: 50px 15px;
   display: block;
 }
-} */
+
+}
