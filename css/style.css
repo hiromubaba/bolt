@@ -279,6 +279,10 @@ img {
   margin-bottom: 80px;
 }
 
+.photo__content:last-child {
+  margin-bottom: 0;
+}
+
 .photo__text__mail {
   margin-top: 80px;
 }
@@ -300,6 +304,7 @@ img {
 .circle__main {
   flex-direction: column
 }
+
 .circle__content {
   display: block;
   margin: auto;
@@ -312,10 +317,6 @@ img {
 
 .icon__inner {
   font-size: 0;
-}
-
-.icon__list {
-  display: block;
 }
 
 }
@@ -390,6 +391,10 @@ img {
 
 .icon {
   padding: 50px 15px;
+}
+
+.icon__list {
+  display: block;
 }
 
 .icon__content {
