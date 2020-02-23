@@ -268,11 +268,11 @@ img {
 
 .photo__content {
   margin: auto;
+  font-size: 0;
 }
 
-.content__img {
-  display: block;
-  margin: auto;
+.photo__content a {
+  display: inline-block;
 }
 
 .photo__content:nth-child(3n) {
